@@ -1,7 +1,7 @@
 {
-  "name": "gulp-boilerplate",
+  "name": "gulp-tamplates",
   "version": "1.0.0",
-  "description": "Frontend boilerplate based on gulp",
+  "description": "tamplates",
   "main": "index.js",
   "scripts": {
     "start": "gulp default --silent",
@@ -11,7 +11,7 @@
     "lint": "stylelint src/**/*.scss && eslint src/**/*.js && htmllint --rc ./node_modules/@mate-academy/htmllint-config/.htmllintrc src/*.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Mate academy",
+  "author": "DimaMedushevskuy",
   "license": "GPL-3.0",
   "devDependencies": {
     "@mate-academy/eslint-config": "*",
